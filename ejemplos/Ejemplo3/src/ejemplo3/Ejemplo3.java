@@ -30,7 +30,13 @@ public class Ejemplo3 {
             System.out.printf("Estudiante aprobado con un "
                     + "promedio: %.2f\n", promedio);
         } else {
-            if ((promedio >= 5) || (promedio < 7.5)) { //and
+            if ((promedio >= 5) && (promedio < 7.5)) { /* El or(||) no se 
+                                                       utiliza debido a que el 
+                                                       analisis de los datos 
+                                                       falla y entra en una 
+                                                       condición que no debe 
+                                                       entrar
+                                                       */
                 System.out.printf("Estudiante en suspenso con un "
                         + "promedio: %.2f\n", promedio);
             } else {
