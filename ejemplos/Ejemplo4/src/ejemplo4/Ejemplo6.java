@@ -31,7 +31,8 @@ public class Ejemplo6 {
         // caracter de la cadena
         // Si el valor de ciudad es 
         // "Loja" se obtiene "L"
-
+        // El substring(0, 1) nos ayuda a obtener los caracteres de la cadena
+        // según su posición
         if ( inicial.equals("L") || inicial.equals("l")) {
             System.out.printf("%s\n", "acceso correcto");
         } else {
